@@ -1,0 +1,4 @@
+@EndUserText.label: 'Employee Management Service'
+define service ZUI_EMPLOYEEE {
+  expose ZCE_EMPLOYEE as Employee;
+}
