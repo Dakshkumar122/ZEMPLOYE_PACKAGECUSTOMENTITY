@@ -34,4 +34,8 @@ define custom entity ZCE_EMPLOYEE
       JoiningDate : abap.dats;
       @UI.lineItem: [{ value   : 'Status',  label: 'Status',  position: 90 }]
       Status      : abap.char(1);
+      @UI.lineItem: [{ value: 'UserName', label: 'Logged In User', position: 100 }]
+      UserName    : abap.char(20);
+      @UI.lineItem: [{ value: 'SystemDate', label: ' SystemDate User', position: 110 }]
+      SystemDate  : abap.dats;
 }
